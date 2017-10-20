@@ -11,9 +11,8 @@ int main ()
     //Collect user input for grid size
     int rows;
     int cols;
-    cout<<"Please input desired number of rows."<<endl;
+    cout<<"Enter rows and columns of stars"<<endl;
     cin>>rows;
-    cout<<"Please input desired number of columns."<<endl;
     cin>>cols;
 
     if(rows>0 && cols>0)
